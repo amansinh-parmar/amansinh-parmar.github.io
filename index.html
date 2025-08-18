@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+
+    <!-- ====================== CSS ====================== -->
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <!-- ====================== Icons ====================== -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- ====================== Google Fonts ====================== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- ====================== NavBar ====================== -->
+    <header class="header" id="header">
+        <nav id="navmenu" class="nav container">
+            <a href="#" class="nav-logo">CodeAmax</a>
+
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link">Service</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link">Skills</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#work" class="nav-link">Portfolio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+
+                <i class="ri-close-line nav-close" id="nav-close"></i>
+            </div>
+
+            <div class="nav-btns">
+                <i class="ri-sun-line change-theme" id="theme-toggle"></i>
+
+                <div class="nav-toggle" id="nav-toggle">
+                    <i class="ri-menu-line"></i>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ====================== MAIN ====================== -->
+    <main class="main">
+        <!-- ====================== HOME ====================== -->
+        <section class="home section" id="home">
+            <div class="home-container container grid">
+                <div class="home-data">
+                    <h1 class="home-title">Amansinh Parmar</h1>
+                    <h3 class="home-job">Software Engineer | Cybersecurity Enthusiast</h3>
+
+                    <p class="home-description">
+                        A cybersecurity enthusiast with a strong foundation in web development, based in Gujarat. With a
+                        detail-oriented approach and a solid grasp of web technologies, I’m passionate about securing
+                        digital systems and continuously expanding my knowledge in ethical hacking, network security,
+                        and threat analysis.
+                    </p>
+
+                    <a href="#work" class="button">My Works</a>
+                </div>
+
+                <div class="home-img-wrapper">
+                    <img src="imgs/profile-Transparent.png" alt="" class="home-img">
+                </div>
+
+                <div class="home-social grid">
+                    <a href="https://www.linkedin.com/in/amansinh-parmar-ab15421b7/" target="_blank"
+                        class="home-social-link">
+                        <i class="ri-linkedin-fill"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/mr_amansinh/" target="_blank" class="home-social-link">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+
+                    <a href="https://github.com/amansinh-30" target="_blank" class="home-social-link">
+                        <i class="ri-github-fill"></i>
+                    </a>
+
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ====================== ABOUT ====================== -->
+        <section class="about section" id="about">
+            <div class="about-container container grid">
+                <div class="about-experience">
+                    <span class="about-no"><count-up>7</count-up></span>
+                    <h3 class="about-title">
+                        Years <br />
+                        Experience
+                    </h3>
+                </div>
+
+                <div>
+                    <h2 class="about-description">
+                        Over <span class="text-gradient">seven years of programming</span>
+                        transform concepts projects using
+                        <span class="text-gradient">creativity</span> and
+                        <span class="text-gradient">interactive design </span> worldwide.
+                    </h2>
+
+                    <a href="#resume" download="" class="button">
+                        Download CV
+                    </a>
+                </div>
+
+                <ul class="about-data grid">
+                    <li class="about-item">
+                        <h3 class="about-item-no"><count-up>3</count-up></h3>
+                        <p class="about-details">Award Winner</p>
+                    </li>
+
+                    <li class="about-item">
+                        <h3 class="about-item-no"><count-up>300</count-up>+</h3>
+                        <p class="about-details">Worldwide Client</p>
+                    </li>
+
+                    <li class="about-item">
+                        <h3 class="about-item-no"><count-up>1.1</count-up>k</h3>
+                        <p class="about-details">Job Done Successfully</p>
+                    </li>
+
+                </ul>
+            </div>
+        </section>
+
+        <!-- ====================== SERVICES ====================== -->
+        <section class="service section" id="services">
+            <h2 class="section-title">My Services</h2>
+
+            <div class="services-container container grid">
+                <article class="services-card">
+                    <span class="services-no">01</span>
+
+                    <h3 class="services-title">Responsive Design</h3>
+                    <p class="services-description">Ensure your website looks great on any device, with
+                        layouts that adapt to different screen sizes seamlessly.
+                    </p>
+                </article>
+
+                <article class="services-card">
+                    <span class="services-no">02</span>
+
+                    <h3 class="services-title">CMS Development</h3>
+                    <p class="services-description">Set up user-friendly CMS solutions like Wordpress or ]
+                        custom-built options can manage content easily.</p>
+                </article>
+
+                <article class="services-card">
+                    <span class="services-no">03</span>
+
+                    <h3 class="services-title">API Integrations</h3>
+                    <p class="services-description">Build and intergrate APIs to connect website with
+                        third-party application, enhancing functionality.</p>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- ====================== SKILLS ====================== -->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">My Skills</h2>
+
+            <div class="skills-container container grid">
+                <div class="skills-group skills-developer">
+                    <h3 class="skills-title">Frontend Developer</h3>
+
+                    <div class="skills-items grid">
+                        <div class="skills-data">
+                            <div class="skills-blob">
+                                <img src="imgs/html.svg" alt="" class="skills-img">
+                            </div>
+
+                            <h3 class="skills-name">HTML</h3>
+                            <span class="skills-level">Intermediate</span>
+                        </div>
+
+                        <div class="skills-data">
+                            <div class="skills-blob">
+                                <img src="imgs/css.svg" alt="" class="skills-img">
+                            </div>
+
+                            <h3 class="skills-name">CSS</h3>
+                            <span class="skills-level">Intermediate</span>
+                        </div>
+
+                        <div class="skills-data">
+                            <div class="skills-blob">
+                                <img src="imgs/js.svg" alt="" class="skills-img">
+                            </div>
+
+                            <h3 class="skills-name">JavaScript</h3>
+                            <span class="skills-level">Intermediate</span>
+                        </div>
+
+                        <div class="skills-data">
+                            <div class="skills-blob">
+                                <img src="imgs/react.svg" alt="" class="skills-img">
+                            </div>
+
+                            <h3 class="skills-name">React</h3>
+                            <span class="skills-level">Basic</span>
+                        </div>
+
+                        <div class="skills-data">
+                            <div class="skills-blob">
+                                <img src="imgs/figma.svg" alt="" class="skills-img">
+                            </div>
+
+                            <h3 class="skills-name">Figma</h3>
+                            <span class="skills-level">Intermediate</span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="skills-group skills-designer">
+                    <h3 class="skills-title">Backend Developer</h3>
+
+                    <div class="skills-items grid">
+                        <div class="skills-data">
+                            <div class="skills-blob">
+                                <img src="imgs/nodejs.svg" alt="" class="skills-img">
+                            </div>
+
+                            <h3 class="skills-name">Node.js</h3>
+                            <span class="skills-level">Intermediate</span>
+                        </div>
+
+                        <div class="skills-data">
+                            <div class="skills-blob">
+                                <img src="imgs/python.svg" alt="" class="skills-img">
+                            </div>
+
+                            <h3 class="skills-name">Python</h3>
+                            <span class="skills-level">Intermediate</span>
+                        </div>
+
+                        <div class="skills-data">
+                            <div class="skills-blob">
+                                <img src="imgs/mongodb.svg" alt="" class="skills-img">
+                            </div>
+
+                            <h3 class="skills-name">MongoDB</h3>
+                            <span class="skills-level">Basics</span>
+                        </div>
+
+                        <div class="skills-data">
+                            <div class="skills-blob">
+                                <img src="imgs/linux.svg" alt="" class="skills-img">
+                            </div>
+
+                            <h3 class="skills-name">Kali Linux</h3>
+                            <span class="skills-level">Intermediate</span>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ====================== RESUME ====================== -->
+        <section class="resume section" id="resume">
+            <h2 class="section-title">My Journey</h2>
+
+            <div class="resume-container container grid">
+                <div class="resume-item grid">
+                    <div class="resume-left">
+                        <i class="ri-restaurant-line resume-icon"></i>
+                        <h3 class="resume-title">Singh's Resuratnt</h3>
+                        <span class="resume-duration">June 2021 - April 2024</span>
+                    </div>
+
+                    <div class="resume-right">
+                        <h3 class="resume-title">Resuratnt Manager</h3>
+                        <p class="resume-description"> Led teams in fast-paced environments, sharpened my leadership,
+                            organization, and customer service skills — all of which help me manage projects and
+                            communicate effectively with clients and teams today.</p>
+                    </div>
+                </div>
+
+                <div class="resume-item grid">
+                    <div class="resume-right">
+                        <i class="ri-building-4-fill resume-icon"></i>
+                        <h3 class="resume-title">Evolution Gaming</h3>
+                        <span class="resume-duration">April 2022 - July 2023</span>
+                    </div>
+
+                    <div class="resume-left">
+                        <h3 class="resume-title">Game Presenter</h3>
+                        <p class="resume-description">Developed strong on-camera presence and interpersonal skills while
+                            working in a dynamic, tech-driven setting — reinforcing my confidence in public speaking,
+                            client interaction, and presentation.</p>
+                    </div>
+                </div>
+
+                <div class="resume-item grid">
+                    <div class="resume-left">
+                        <i class="ri-graduation-cap-fill resume-icon"></i>
+                        <h3 class="resume-title">ISMA University</h3>
+                        <span class="resume-duration">Feb 2019 - July 2023</span>
+                    </div>
+
+                    <div class="resume-right">
+                        <h3 class="resume-title">B.Tech in Computer Science</h3>
+                        <p class="resume-description">My formal education provided a solid foundation in software
+                            development, computer systems, and logical thinking.</p>
+                    </div>
+                </div>
+
+                <div class="resume-item grid">
+                    <div class="resume-right">
+                        <i class="ri-code-s-slash-line resume-icon"></i>
+                        <h3 class="resume-title">DVIBIT</h3>
+                        <span class="resume-duration">Jan 2025 - Present</span>
+                    </div>
+
+                    <div class="resume-left">
+                        <h3 class="resume-title">Software Engineer</h3>
+                        <p class="resume-description">Applied my technical knowledge in real-world projects, where I
+                            contributed to building applications and understanding full project lifecycles — from
+                            planning and coding to testing and deployment.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ====================== PORTFOLIO ====================== -->
+        <section class="work section" id="work">
+            <h2 class="section-title">Portfolio</h2>
+
+            <div class="container">
+                <ul class="work-list">
+                    <li class="work-item " data-filter="all">All</li>
+                    <li class="work-item" data-filter=".development">Development</li>
+                    <li class="work-item" data-filter=".editing">Editing</li>
+                    <li class="work-item" data-filter=".marketing">Marketing</li>
+                </ul>
+
+                <div class="work-container grid">
+
+
+                    <div class="mix marketing development">
+                        <article class="work-card">
+                            <img src="imgs/Luxury Furniture Showcase Platform Web Application.png" alt=""
+                                class="work-img">
+
+                            <h4 class="work-category">Development, Marketing</h4>
+                            <h3 class="work-title">Luxury Furniture Showcase</h3>
+
+                            <p class="work-description">
+                                build a visually rich, fast, and scalable web platform to showcase high-end furniture,
+                                focusing on a smooth user experience, SEO optimization, and lead generation
+                                capabilities.
+                            </p>
+
+                            <a href="https://damp2decor.com/" target="_blank" class="work-link">
+                                Visit Project <i class="ri-arrow-right-line work-icon"></i>
+                            </a>
+                        </article>
+                    </div>
+
+                    <div class="mix editing development">
+                        <article class="work-card">
+                            <img src="imgs/Integrated Productivity App.png" alt="" class="work-img">
+
+                            <h4 class="work-category">UI/UX Development, Development
+                            </h4>
+                            <h3 class="work-title">Integrated Productivity App</h3>
+
+                            <p class="work-description">
+                                build a web-based tool that combines daily hour tracking, task management, and shared
+                                expense features to streamline productivity and collaboration. <br>
+
+                            </p>
+
+                            <a href="#" class="work-link">
+                                Visit Project <i class="ri-arrow-right-line work-icon"></i>
+                            </a>
+                        </article>
+                    </div>
+
+
+                    <div class="mix development marketing">
+                        <article class="work-card">
+                            <img src="imgs/Colour Trends.png" alt="" class="work-img">
+
+                            <h4 class="work-category">Development, Marketing</h4>
+                            <h3 class="work-title">Colour Trends – Textile Production</h3>
+
+                            <p class="work-description">
+                                To streamline and monitor textile production workflows through real-time tracking,
+                                process optimization, and performance analysis, with a focus on Sublimation and Digital
+                                Printing.
+                            </p>
+
+                            <a href="https://birjucpatel.com/" target="_blank" class="work-link">
+                                Visit Project <i class="ri-arrow-right-line work-icon"></i>
+                            </a>
+                        </article>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ====================== CONTACT ====================== -->
+        <section class="contact section" id="contact">
+            <div class="contact-container container grid">
+                <div class="contact-group">
+                    <h2 class="section-title contact-section-title">
+                        Let's Talk About <br />
+                        Your Project
+                    </h2>
+
+                    <div class="contact-data grid">
+                        <div class="contact-item">
+                            <span class="contact-icon">
+                                <i class="ri-mail-open-line"></i>
+                            </span>
+
+                            <div>
+                                <h3 class="contact-title">E-mail</h3>
+                                <p class="contact-description">codeamax7@gmail.com</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <span class="contact-icon">
+                                <i class="ri-phone-fill"></i>
+                            </span>
+
+                            <div>
+                                <h3 class="contact-title">Phone</h3>
+                                <p class="contact-description">+9199090099</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <span class="contact-icon">
+                                <i class="ri-map-pin-2-fill"></i>
+                            </span>
+
+                            <div>
+                                <h3 class="contact-title">Location</h3>
+                                <p class="contact-description">Surat, Gujarat, India</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <form class="contact-form grid" id="contact-form">
+                    <div class="contact-form-div">
+                        <label for="" class="contact-label">Name</label>
+                        <input type="text" name="name" class="contact-input" id="contact-name">
+                    </div>
+
+                    <div class="contact-form-div">
+                        <label for="" class="contact-label">Email</label>
+                        <input type="email" name="email" class="contact-input" id="contact-email">
+                    </div>
+
+                    <div class="contact-form-div">
+                        <label for="" class="contact-label">Message</label>
+                        <textarea name="message" id="contact-message" class="contact-input contact-area"></textarea>
+                    </div>
+
+                    <button type="submit" class="button contact-button">Send Message</button>
+
+                    <p class="contact-message" id="message"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+    <!-- ====================== FOOOTER ====================== -->
+    <footer class="footer">
+        <div class="footer-container container">
+            <div class="footer-social">
+                <a href="https://www.linkedin.com/in/amansinh-parmar-ab15421b7/" target="_blank" class="footer-link">
+                    <i class="ri-linkedin-fill"></i>
+                </a>
+
+                <a href="https://www.instagram.com/mr_amansinh/" target="_blank" class="footer-link">
+                    <i class="ri-instagram-line"></i>
+                </a>
+
+                <a href="https://github.com/amansinh-30" target="_blank" class="footer-link">
+                    <i class="ri-github-fill"></i>
+                </a>
+
+
+            </div>
+
+            <p class="footer-copyright">ⓒ 2025 <span>CodeAmax</span>. All Rights Reserved</p>
+
+            <p class="footer-copyright">Developed by <span>Amansinh</span></p>
+
+        </div>
+    </footer>
+
+    <!-- ====================== GSAP ====================== -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <!-- ====================== COUNT-UP ====================== -->
+    <script type="module"
+        src="https://cdn.jsdelivr.net/gh/lekoala/formidable-elements@master/dist/count-up.min.js"></script>
+
+
+    <!-- ====================== MIXITUP ====================== -->
+    <script src="JS/mixitup.min.js"></script>
+
+    <!-- ====================== EMAIL JS ====================== -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+
+    <!-- ====================== SCROLL REVEAL ====================== -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ====================== Footer ====================== -->
+
+
+    <!-- ====================== MAIN JS ====================== -->
+    <script src="JS/script.js"></script>
+</body>
+
+</html>
