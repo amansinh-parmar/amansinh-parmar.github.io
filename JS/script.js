@@ -134,14 +134,14 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   //  ====================== EMAIL JS ======================
-  const contactForm = document.getElementById("contact-form");
-  if (contactForm) {
-    navMenu.classList.add("show-menu");
-  }
-  const contactName = document.getElementById("contact-name");
-  if (contactName) {
-    navMenu.classList.add("show-menu");
-  }
+  // const contactForm = document.getElementById("contact-form");
+  // if (contactForm) {
+  //   navMenu.classList.add("show-menu");
+  // }
+  // const contactName = document.getElementById("contact-name");
+  // if (contactName) {
+  //   navMenu.classList.add("show-menu");
+  // }
   const contactEmail = document.getElementById("contact-email");
   const contactMessage = document.getElementById("contact-message");
   const message = document.getElementById("message");
