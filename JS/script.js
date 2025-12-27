@@ -142,6 +142,8 @@ document.addEventListener("DOMContentLoaded", function () {
   // if (contactName) {
   //   navMenu.classList.add("show-menu");
   // }
+
+  const contactForm = document.getElementById("contact-form");
   const contactEmail = document.getElementById("contact-email");
   const contactMessage = document.getElementById("contact-message");
   const message = document.getElementById("message");
