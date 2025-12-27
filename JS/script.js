@@ -139,7 +139,7 @@ document.addEventListener("DOMContentLoaded", function () {
   //   navMenu.classList.add("show-menu");
   // }
   // const contactName = document.getElementById("contact-name");
-  // if (contactName) {
+  // if (contagitctName) {
   //   navMenu.classList.add("show-menu");
   // }
 
